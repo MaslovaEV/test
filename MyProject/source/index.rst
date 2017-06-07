@@ -11,8 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   test1
-   test.md
+   example1
+   example2
 
 Indices and tables
 ==================
