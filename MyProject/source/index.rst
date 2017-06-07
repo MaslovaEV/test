@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 2
 
    test1
+   test.md
 
 Indices and tables
 ==================
