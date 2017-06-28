@@ -28,7 +28,7 @@ Request format:
 
 Request json example::
 
-{
+ {
      "name": "kafka-example",
      "description": "example kafka provider",
      "login": "my_login",
@@ -38,6 +38,6 @@ Request json example::
        "192.168.1.133:9092",
        "192.168.1.135:9092"
        ]
-}
+ }
 
 
