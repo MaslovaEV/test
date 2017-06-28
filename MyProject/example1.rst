@@ -4,6 +4,10 @@
 Create a new provider
 ~~~~~~~~~~~~~~~~~~~~~
 
+.. sidebar:: Provider
+
+is a service provider for a stream
+
 Request method: POST
 
 Request format: 
@@ -18,26 +22,18 @@ Request format:
   "400", "Cannot create provider. Errors: <list-of-errors>."
   "500", "Internal server error"
 
-Request json example
+Request json example::
 
 {
-
      "name": "kafka-example",
-     
      "description": "example kafka provider",
-     
      "login": "my_login",
-     
      "password": "my_pass",
-     
      "type": "kafka",
-     
      "hosts": [
-     
-        "192.168.1.133:9092",
-        
-        "192.168.1.135:9092"
-        
-      ]
-      
+       "192.168.1.133:9092",
+       "192.168.1.135:9092"
+       ]
 }
+
+
